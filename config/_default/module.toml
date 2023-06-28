@@ -1,0 +1,35 @@
+[[mounts]]
+  source = "node_modules/@hyas/core/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "node_modules/@hyas/core/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "node_modules/@hyas/tailwindcss/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "node_modules/@hyas/tailwindcss/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "themes/my-tailwindcss-theme/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "themes/my-tailwindcss-theme/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "assets"
+  target = "assets"
+
+[[mounts]]
+  source = "layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "hugo_stats.json"
+  target = "assets/watching/hugo_stats.json"
