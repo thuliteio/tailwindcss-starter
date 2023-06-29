@@ -10,5 +10,5 @@ npm create hyas@latest -- --template tailwindcss-starter
 ```
 
 Or:
-- [Open in Gitpod](gitpod.io/#https://github.com/gethyas/tailwindcss-starter)
+- [Open in Gitpod](https://gitpod.io/#https://github.com/gethyas/tailwindcss-starter)
 - [Create a new repository](https://github.com/gethyas/tailwindcss-starter/generate)
