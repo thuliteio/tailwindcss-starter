@@ -25,7 +25,7 @@
     "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo"
   },
   "devDependencies": {
-    "@hyas/tailwindcss": "^1.0.0",
+    "@hyas/tailwindcss": "^1.0.2",
     "gethyas": "^2.1.0"
   },
   "engines": {
