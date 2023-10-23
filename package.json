@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-starter",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Hyas Tailwind CSS starter",
   "author": "Hyas",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "lint:styles": "stylelint --cache \"assets/scss/**/*.{css,sass,scss}\"",
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --minify",
+    "build": "exec-bin node_modules/.bin/hugo/hugo --cleanDestinationDir --minify",
     "preview": "http-server --gzip --brotli --ext=html --cors",
     "clean": "npm run clean:build && npm run clean:lint && npm run clean:install",
     "clean:build": "shx rm -rf public resources .hugo_build.lock hugo_stats.json",
@@ -25,8 +25,8 @@
     "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo"
   },
   "devDependencies": {
-    "@hyas/tailwindcss": "^1.0.2",
-    "gethyas": "^2.1.0"
+    "@hyas/tailwindcss": "^1.0.3",
+    "gethyas": "^2.2.2"
   },
   "engines": {
     "node": ">=16.12.0"

@@ -54,11 +54,11 @@ copyRight = "Copyright (c) 2023 Hyas"
     weight = 10
 
 [imaging]
-  anchor = 'Smart'
-  bgColor = '#fff'
-  hint = 'photo'
-  quality = 90
-  resampleFilter = 'Lanczos'
+  anchor = "Smart"
+  bgColor = "#ffffff"
+  hint = "photo"
+  quality = 75
+  resampleFilter = "Box"
 
 [build]
   writeStats = true

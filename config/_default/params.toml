@@ -1,6 +1,4 @@
-# Meta Data for SEO
-
-## Homepage
-title = "Hyas"
-titleSeparator = "-"
-titleAddition = "The all-in-one Hugo-npm framework"
+# Hugo
+title = "My Hyas site"
+description = "Congrats on setting up a new Hyas project!"
+images = ["cover.png"]
