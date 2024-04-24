@@ -36,9 +36,11 @@
   body {
     margin: 7rem 1.5rem;
   }
+
   h1 {
     @apply text-5xl;
   }
+
   h2 {
     @apply text-xl;
   }
@@ -54,6 +56,7 @@
   .filter-none {
     filter: none;
   }
+  
   .filter-grayscale {
     filter: grayscale(100%);
   }
