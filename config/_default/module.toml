@@ -32,7 +32,7 @@
   target = "data"
 
 ## i18n
-[[module]]
+[[mounts]]
   source = "i18n"
   target = "i18n"
 
@@ -50,6 +50,6 @@
   target = "layouts"
 
 ## static
-[[module]]
+[[mounts]]
   source = "static"
   target = "static"
