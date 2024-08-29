@@ -1,8 +1,8 @@
 {
   "name": "tailwindcss-starter",
   "version": "0.0.0",
-  "description": "Hyas Tailwind CSS starter with recommended integrations",
-  "author": "Hyas",
+  "description": "Thulite Tailwind CSS starter with recommended integrations",
+  "author": "Thulite",
   "license": "MIT",
   "scripts": {
     "create": "hugo new",
@@ -12,12 +12,12 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@hyas/tailwindcss": "^1.1.0",
-    "gethyas": "^2.4.2"
+    "@thulite/tailwindcss": "^1.2.0",
+    "thulite": "^2.5.0"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
-    "vite": "^5.2.10"
+    "prettier": "^3.3.3",
+    "vite": "^5.4.2"
   },
   "engines": {
     "node": ">=20.11.0"

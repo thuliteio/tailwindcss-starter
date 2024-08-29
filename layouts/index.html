@@ -3,9 +3,9 @@
   <div class="text-center">
     <h1 class="mb-5 font-medium">{{ .Title }}</h1>
     <p class="text-lg">{{ .Params.Lead | safeHTML }}</p>
-    <a href="https://docs.gethyas.com/" type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 mx-1 my-5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Get Started</a>
-    <a href="https://github.com/orgs/gethyas/discussions" type="button" class="py-2.5 px-5 mx-1 my-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">View Discussions</a>
-    <p class="font-mono text-gray-500">Open-source MIT Licensed. <a href="https://github.com/gethyas/hyas">Hyas v{{ $data := getJSON "https://raw.githubusercontent.com/gethyas/hyas/master/package.json" }}{{ $data.version }}</a></p>
+    <a href="https://docs.thulite.io/getting-started/" type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 mx-1 my-5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Get Started</a>
+    <a href="https://github.com/orgs/thuliteio/discussions" type="button" class="py-2.5 px-5 mx-1 my-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">View Discussions</a>
+    <p class="font-mono text-gray-500">Open-source MIT Licensed. <a href="https://github.com/thuliteio/thulite">Thulite v{{ $data := getJSON "https://raw.githubusercontent.com/thuliteio/thulite/main/package.json" }}{{ $data.version }}</a></p>
   </div>
 </div>
 {{ end }}

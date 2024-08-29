@@ -1,7 +1,7 @@
 # Hugo
-title = "My Hyas site"
-description = "Congrats on setting up a new Hyas project!"
+title = "My Thulite site"
+description = "Congrats on setting up a new Thulite project!"
 images = ["cover.png"]
 
 [social]
-  twitter = "gethyas"
+  twitter = "thuliteio"
