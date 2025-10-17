@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@source "hugo_stats.json";
+
+body {
+  @apply bg-gray-50;
+}

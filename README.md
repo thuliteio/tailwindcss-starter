@@ -7,10 +7,19 @@ Official Tailwind CSS starter
 Use the CLI:
 
 ```bash
-npm create thulite@latest -- --template tailwindcss-starter
+npm create thulite@latest -- --template tailwindcss
 ```
 
-Or:
+With recommended integrations  (SEO and Images):
 
-- [Open in Gitpod](https://gitpod.io/#https://github.com/thuliteio/tailwindcss-starter)
-- [Create a new repository](https://github.com/thuliteio/tailwindcss-starter/generate)
+```bash
+npm create thulite@latest -- --template tailwindcss-rec
+```
+
+## Usage
+
+For detailed instructions, refer to our [documentation](https://docs.thulite.io/getting-started/).
+
+## Support
+
+Need assistance? Visit [Thulite Discussions](https://github.com/orgs/thuliteio/discussions) for help.
