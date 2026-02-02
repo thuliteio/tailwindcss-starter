@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./images.css";
 @source "hugo_stats.json";
 
 body {

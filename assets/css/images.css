@@ -1,0 +1,28 @@
+img {
+    @apply max-w-full h-auto;
+}
+
+img[data-sizes="auto"] {
+    @apply block;
+}
+
+img,
+picture {
+    @apply text-[0];
+}
+
+figcaption {
+    @apply text-base mt-2 italic;
+}
+
+.content .gitpod-mark-monochrome.icon {
+    @apply mb-0.5 mr-2;
+}
+
+.blur-up {
+    @apply blur-[5px] transition-[filter] duration-[400ms];
+}
+
+.blur-up.lazyloaded {
+    @apply blur-none;
+}

@@ -12,6 +12,8 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
+{{< img process="fill 800x450" src="images/paul-pascale-FI9QMIVMdCM-unsplash.jpg" alt="Grey and white tabby cat" >}}
+
 # Congrats on setting up a new Thulite project!
 
 This line is from `content/_index.md` :rocket:
