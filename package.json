@@ -12,11 +12,15 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/cli": "^4.2.1",
     "@thulite/images": "^3.3.4",
     "@thulite/seo": "^2.4.3",
-    "@thulite/tailwindcss": "^1.3.2",
-    "thulite": "^2.6.4"
+    "@thulite/tailwindcss": "^1.3.3",
+    "thulite": "^2.6.5"
+  },
+  "overrides": {
+      "minimatch": "^10.2.2",
+      "glob": "^13.0.6"
   },
   "devDependencies": {
     "prettier": "^3.8.1",
