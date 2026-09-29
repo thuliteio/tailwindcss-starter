@@ -6,7 +6,7 @@ disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
+locale = "en-US"
 pagerSize = 7
 rssLimit = 10
 summarylength = 20 # 70 (default)
@@ -61,8 +61,9 @@ copyRight = "Copyright (c) 2020-2026 Thulite"
       weight = 10
 
 [imaging]
-  anchor = "Center"
-  bgColor = "#ffffff"
-  hint = "photo"
-  quality = 85
-  resampleFilter = "Lanczos"
+anchor = "Center"
+resampleFilter = "Lanczos"
+
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']

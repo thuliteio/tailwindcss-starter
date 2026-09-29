@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./images.css";
+@plugin "@tailwindcss/typography";
 @source "hugo_stats.json";
 
 body {
