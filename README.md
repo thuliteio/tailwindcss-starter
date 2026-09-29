@@ -10,7 +10,7 @@ Use the CLI:
 npm create thulite@latest -- --template tailwindcss
 ```
 
-With recommended integrations  (SEO and Images):
+With recommended integrations (SEO and Images):
 
 ```bash
 npm create thulite@latest -- --template tailwindcss-rec
@@ -18,7 +18,7 @@ npm create thulite@latest -- --template tailwindcss-rec
 
 ## Usage
 
-For detailed instructions, refer to our [documentation](https://docs.thulite.io/getting-started/).
+For detailed instructions, refer to our [documentation](https://docs.thulite.io/thulite/start-here/installation/).
 
 ## Support
 

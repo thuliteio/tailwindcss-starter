@@ -3,13 +3,9 @@ module.exports = {
     [
       '@babel/preset-env',
       {
+        bugfixes: true,
         targets: {
-          browsers: [
-            // Best practice: https://github.com/babel/babel/issues/7789
-            '>=1%',
-            'not ie 11',
-            'not op_mini all',
-          ],
+          browsers: ['>= 1%', 'not dead', 'not IE 11', 'not op_mini all'],
         },
       },
     ],

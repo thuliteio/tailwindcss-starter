@@ -1,6 +1,6 @@
 ---
-title : "My Thulite site"
-description: "Congrats on setting up a new Thulite project!"
+title: "My Thulite site"
+description: "A clean, flexible Thulite starter built with Tailwind CSS, ready to customize with your content, images, and ideas."
 lead: "Congrats on setting up a new Thulite project!"
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
