@@ -20,7 +20,7 @@ figcaption {
 }
 
 .blur-up {
-  @apply blur-[5px] transition-[filter] duration-[400ms];
+  @apply blur-[5px] transition-[filter] duration-400;
 }
 
 .blur-up.lazyloaded {
